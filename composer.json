@@ -20,9 +20,15 @@
             "Swap\\Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+        "url": "https://github.com/sudden-break/exchanger",
+        "type": "git"
+        }
+    ],
     "require": {
         "php": "^5.5 || ^7.0",
-        "florianv/exchanger": "~0.3"
+        "florianv/exchanger": "dev-patch-1"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8 || ^5.4",
